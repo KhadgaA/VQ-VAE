@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22635-SP0",
+    "python": "3.9.16",
+    "heartbeatAt": "2024-04-29T10:09:14.556788",
+    "startedAt": "2024-04-29T10:09:12.782628",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/KhadgaA/VQ-VAE.git",
+        "commit": "7d29ab3cbd4e8d934d48f6628d8d882e31ace433"
+    },
+    "email": "khadgajyothalli@gmail.com",
+    "root": "C:/Users/KHADGA JYOTH ALLI/Desktop/programming/Class Work/IITJ/Deep Learning/A5_VQ-VAE",
+    "host": "Khadga-Laptop",
+    "username": "Khadga",
+    "executable": "c:\\Users\\KHADGA JYOTH ALLI\\.conda\\envs\\gpu\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3000.0,
+        "min": 0.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 476.00780868530273,
+            "used": 438.5462532043457
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.362796783447266
+    }
+}

@@ -1,0 +1,25 @@
+2024-04-29 15:39:12,785 INFO    MainThread:22836 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-04-29 15:39:12,786 INFO    MainThread:22836 [wandb_setup.py:_flush():76] Configure stats pid to 22836
+2024-04-29 15:39:12,786 INFO    MainThread:22836 [wandb_setup.py:_flush():76] Loading settings from C:\Users\KHADGA JYOTH ALLI\.config\wandb\settings
+2024-04-29 15:39:12,786 INFO    MainThread:22836 [wandb_setup.py:_flush():76] Loading settings from c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\Deep Learning\A5_VQ-VAE\wandb\settings
+2024-04-29 15:39:12,786 INFO    MainThread:22836 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-29 15:39:12,786 INFO    MainThread:22836 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-29 15:39:12,786 INFO    MainThread:22836 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-29 15:39:12,786 INFO    MainThread:22836 [wandb_init.py:_log_setup():526] Logging user logs to c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\Deep Learning\A5_VQ-VAE\wandb\run-20240429_153912-on6rqxt1\logs\debug.log
+2024-04-29 15:39:12,786 INFO    MainThread:22836 [wandb_init.py:_log_setup():527] Logging internal logs to c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\Deep Learning\A5_VQ-VAE\wandb\run-20240429_153912-on6rqxt1\logs\debug-internal.log
+2024-04-29 15:39:12,786 INFO    MainThread:22836 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002612CEF2EB0>
+2024-04-29 15:39:12,787 INFO    MainThread:22836 [wandb_init.py:init():566] calling init triggers
+2024-04-29 15:39:12,787 INFO    MainThread:22836 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-04-29 15:39:12,787 INFO    MainThread:22836 [wandb_init.py:init():616] starting backend
+2024-04-29 15:39:12,787 INFO    MainThread:22836 [wandb_init.py:init():620] setting up manager
+2024-04-29 15:39:12,795 INFO    MainThread:22836 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-29 15:39:12,798 INFO    MainThread:22836 [wandb_init.py:init():628] backend started and connected
+2024-04-29 15:39:12,819 INFO    MainThread:22836 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-04-29 15:39:12,820 INFO    MainThread:22836 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-29 15:39:12,820 INFO    MainThread:22836 [wandb_init.py:init():720] updated telemetry
+2024-04-29 15:39:13,164 INFO    MainThread:22836 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-04-29 15:39:13,928 INFO    MainThread:22836 [wandb_run.py:_on_init():2262] communicating current version
+2024-04-29 15:39:14,401 INFO    MainThread:22836 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-29 15:39:14,401 INFO    MainThread:22836 [wandb_init.py:init():804] starting run threads in backend
