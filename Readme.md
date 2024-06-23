@@ -1,24 +1,24 @@
-﻿**Assignment 5: Vector Quantized - VAE CSL7590: Deep Learning** 
+# **Assignment 5: Vector Quantized - VAE CSL7590: Deep Learning** 
 
 **AY 2023-24, Semester II** 
 
 **Alli Khadga Jyoth (M23CSA003)   Mohit Sharma (M23CSA015)** 
 
-**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 1. Aim** 
+## Aim 
 
 The primary aim of this assignment is to explore and implement VQVAE on the skin lesion dataset. Specifically, the aim can be broken down into two main objectives: 
 
 1. **Train a Vector-Quantized Variational Autoencoder (VQ-VAE)** to efficiently encode and decode high-dimensional image data while capturing meaningful latent representations. 
 1. **Train an Auto Regressive Model (ARM)** to generate new, realistic images based on the learned latent space representations from the VQ-VAE. 
-2. **Introduction**
+
+## **Introduction**
 
 The Vector-Quantized Variational Autoencoder (VQ-VAE) is a variant of the traditional Variational Autoencoder (VAE) that incorporates a Vector Quantization (VQ) mechanism to learn a discrete latent space representation. This discrete representation, coupled with a codebook, allows for efficient encoding and decoding of high-dimensional image data while capturing meaningful features in the latent space. 
 
 In parallel, Auto Regressive Models (ARMs) have gained popularity for their ability to generate sequential data, such as images, by modeling the conditional probability distribution of each pixel given previous pixels.  
 
 The primary objective of this assignment is to explore the effectiveness of combining VQ-VAE with a Transformer-based ARM for generating realistic skin lesion images. By training the VQ- VAE to learn a meaningful latent space representation of skin lesions and subsequently training an ARM to generate images based on this latent space, we aim to produce synthetic images that exhibit diversity, realism, and relevance to dermatological conditions. 
-
-3. **Methodology**
+## **Methodology**
 - Data Loading and Preprocessing 
 - Data Augmentations  
 1. Random horizontal flip – 0.4 
@@ -29,7 +29,7 @@ The primary objective of this assignment is to explore the effectiveness of comb
 
 std =   (0.1701, 0.1709, 0.1831) data\_variance = 0.0487. 
 
-**Model Architecture:**
+### **Model Architecture:**
 
 - Vector Quantizer Layer 
 6. Implemented Vector Quantizer Layer: 
@@ -67,9 +67,9 @@ Based on ResNet framework.
   - Second layer as a residual stack. 
   - Two convolutional transpose layers for upscaling. 
 
-**Methodology: Task 2** 
+## **Methodology: Task 2** 
 
-**Auto Regressive Model Used:  Transformer.** 
+### **Auto Regressive Model Used:  Transformer.** 
 
 - Hyperparameters 
 1. Batch Size: 128 (number of independent sequences processed in parallel) 
@@ -102,7 +102,7 @@ xvii.Used for comparison and evaluation alongside the Transformer-based model to
 
 assess performance and effectiveness in generating high-quality images. 
 
-5. **Results:** 
+## **Results:** 
 
 ![](images/001.png)
 
@@ -130,7 +130,7 @@ assess performance and effectiveness in generating high-quality images.
 
 **Transformer Training Metrics** 
 
-6. **Analysis**
+##  **Analysis**
 
 The analysis of the outcomes from both the Vector-Quantized Variational Autoencoder (VQ- VAE) and the Transformer based regressive model provides valuable insights into their effectiveness and capabilities for skin lesion image synthesis. 
 
@@ -150,7 +150,7 @@ The analysis of the outcomes from both the Vector-Quantized Variational Autoenco
 
   While the GPT model captured aspects like color and texture well, further optimization and fine-tuning are required to improve its ability to reconstruct images with higher fidelity and accuracy. 
 
-7. **Conclusion**
+##  **Conclusion**
 
 In conclusion, the VQ-VAE emerged as a robust and effective model for skin lesion image synthesis, producing reconstructed images that closely mirrored the originals. Its ability to preserve intricate details and nuances makes it highly valuable for applications in dermatological analysis and computer-aided diagnosis. 
 
