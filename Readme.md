@@ -1,4 +1,4 @@
-# **Assignment 5: Vector Quantized - VAE CSL7590: Deep Learning** 
+# **VQ-VAE and Transformer-based Image Synthesis for Skin Lesion Analysis - CSL7590: Deep Learning** 
 
 **AY 2023-24, Semester II** 
 
